@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4b6cb7,#182848)
+  }
+  
+  .container{
+    position: absolute; 
+   left:50%; 
+    top:50%; 
+   transform:translate(-50%,-50%)
+}  
+.box{
+   min-width: 300px;
+   min-height: 200px;
+   border-radius: 30px;
+   background-color: white;
+   text-align:center;
+   position: relative;
+   font-family: 'Nunito',sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 36px;
+    padding: 30px 0px;
+}
+.content{
+    padding: 0 40px;
+}
+.input{
+    background-color:whitesmoke;
+    border-radius: 28px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.input label{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#weight{
+    outline: none;
+    border: none;
+    height: 20px;
+    border-radius: 10px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+}
+#height{
+    outline: none;
+    border: none;
+    height: 20px;
+    border-radius: 10px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+}
+button#calculate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 12px 0;
+   
+
+}
+button#calculate:hover{
+    background:whitesmoke;
+    color: blue;
+    
+
+}
+.result{
+    padding: 30px 20px;
+}
+.result p{
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.rvalue{
+    font-size: 36px;
+    font-weight: 900;
+    background-color: lightskyblue;
+    color: #4f7df9;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 25px;
+}
+#comment{
+    color: #4f7df9;
+    font-weight: 800;
+}
+
+  
+ 
+
+
+
+
+
+
+  
